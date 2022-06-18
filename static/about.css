@@ -11,3 +11,7 @@
 .fa-whatsapp:hover{color:rgb(0, 150, 62);}
 .fa-instagram:hover{color:rgb(255, 0, 106);font-weight: bold;}
 .fa-envelope-o:hover{color:red;}
+.btn a{text-decoration: none;color:white;font-size:80%;padding: 5px;}
+.btn1 a{text-decoration: none;color:white;font-size:80%;padding: 5px;}
+.btn:hover{background: rgb(185, 14, 14);}
+.btn1:hover{background: rgb(185, 14, 14);}

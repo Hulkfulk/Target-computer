@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}
+SignUp Target Computer
+{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static',filename='signup.css')}}">
+{% endblock %}
+{% block content %}
+
+<form action="" method="post">
+    <h1>SignUP</h1>
+    {{form.name.label}}<br>
+    {{form.name(id="input")}}<br>
+    {{form.phone.label}}<br>
+    {{form.phone(id="input")}}<br>
+    {{form.email.label}}<br>
+    {{form.email(id="input")}}<br>
+    {{form.submit(class="submit")}}
+</form>
+
+{% endblock %}

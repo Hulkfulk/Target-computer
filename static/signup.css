@@ -1,0 +1,7 @@
+form{text-align: center;margin-top: 150px;font-size:130%;margin-left: 32%;}
+h1{text-align: center;font-size: 250%;padding-bottom: 20px;}
+.submit{margin-top: 30px;background: #777d7e;padding: 5px;border-radius: 10px;}
+#input:hover{border-color: rgb(0, 0, 0);border-width: 3px;}
+.submit:hover{color:white;background:red;}
+form{background: rgb(251, 255, 0);width:420px;padding-bottom: 20px;padding-top: 20px;}
+
