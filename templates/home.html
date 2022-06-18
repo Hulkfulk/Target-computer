@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block title %}
+Home Target computer
+{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static',filename='home.css')}}">
+{% endblock %}
+{% block content %}
+<div class="hero">
+    <div class="left">
+        <h1>Become Master in
+            Computer <br>and its
+            Applications <br>
+            Join us Now
+        </h1>
+        <p>We at Target computer Provides the<br>
+           best courses and lesson with only<br>
+           a minimal tution fee. We are happy<br>
+           to announce our online support Through<br>
+           this website.
+           Don't Miss the chance 
+
+        </p><br>
+        <span><a href="" id="btn1">Explore</a></span>
+        <span id="btn2"><a href="" >SignUp</a></span>
+
+    </div>
+    <div class="right">
+       <img src="{{url_for('static',filename='images/logo.jpg')}}">
+    </div>
+</div><br><br>
+
+<div class="hero2">
+    <div class="center">
+        <h1>Enter The New World</h1>
+        <p>Make your dream come true become <br>
+           start your journey with us we <br>
+           have success story of million of<br>
+           of students and taking this glory forward <br>
+           Join the full course now to get 50% off
+        </p>
+    </div>
+    <span id="btn11"><a href="">Enroll Now</a></span>
+    <span id="btn12"><a href="">Start</a></span>
+</div>
+
+<div class="testimonials">
+    <h1>Testimonials</h1><br>
+    <div class="persons">
+        <img src="{{url_for('static',filename='images/person1.jpg')}}">
+        <img src="{{url_for('static',filename='images/person2.jpg')}}">
+        <img src="{{url_for('static',filename='images/person3.jpg')}}">
+    </div>
+    <div class="dialogs">
+        <p><b>John</b><br>
+           The Amazing Teacher<br>
+           explian evey topic <br>
+           so nice i would like to 
+           <br>pursue more courses<br>
+           form here.
+        </p>
+        <p><b>Rohit</b><br>
+           Altough Good <br>
+           experience i would <br>
+           rate this 3.5<br>
+           our of 5.
+        </p>
+        <p><b>sameer</b><br>
+           Joyful and learning<br>
+           invironment I learnt<br>
+            very much form your<br>
+           course dear sir <br>
+           Thank you very much sir.
+        </p>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,35 @@
+*{margin:0px;padding:0px;font-size: 110%;}
+body{margin:0px;padding:0px;}
+.menubar{display:flex;position:relative;background:rgb(24, 24, 23);height:100px;width:100%;}
+.left img{width:20%;height:40%;position:absolute;padding:30px;}
+.right{display:flex;position:absolute;margin-left: 800px;}
+.subhem{display:flex;}
+.hemicon{position:absolute;margin-left:1310px;margin-top:30px;font-size: 140%;color:white;background:rgb(24, 24, 23);cursor: pointer;}
+.hemberger{margin-left:1100px;margin-top:50px;}
+.right div{padding-top:30px;padding-left: 35px;}
+.right div a{text-decoration: none;color:white;}
+#home a{background:rgb(2, 169, 247);border-radius: 8px;padding: 8px;}
+.subhem{position:absolute;background:rgb(0, 0, 0);width: 41%;height:650%;display:flex;margin-left:-294px;margin-top: -50px;}
+.subsubhem{display:flex;padding-top: 30px;}
+.social1{display: flex;flex-direction: column;text-align: left;padding-left:10px;margin-top:135px;background:rgb(0, 255, 98);height:300px;}
+.social1 .fa{padding-top: 50%;padding-right: 20px;font-size: 120%;} 
+.fa-window-close{position: absolute;margin-left: 89%;color:white;cursor: pointer;}
+.subsubhem ul{position: absolute;margin-top: 16%;margin-left:60%;}
+.subsubhem ul li{padding-top: 30%;}
+.subsubhem ul li a{text-decoration:none;color:white;}
+.fa-facebook-official{color:blue;}
+.fa-whatsapp{color:rgb(14, 105, 14);}
+.fa-twitter-square{color:rgb(14, 108, 131);}
+.fa-instagram{color:rgb(255, 0, 43);}
+#subunite{display:none;}
+#croos{margin-left: -80px;}
+
+/* ***********footer design******* */
+.footer{display:flex;background:rgb(26, 26, 24);}
+.footer div{padding-left: 8%;color:white;padding-top: 15px;}
+.footer div a{text-decoration: none;color:white;font-size: 80%;}
+.devsocial .fa{padding: 20px;margin-left:-20px;}
+.devsocial{margin-left: -27px;}
+.devdonate a{background: rgb(192, 75, 94);width: 120px;padding: 10px;}
+.devdonate{margin-left: -2px;}
+#menubar{position:fixed;top:0px;z-index: 9999;}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{url_for('static',filename='base.css')}}">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/88904dd6ba.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+    
+        <div class="menubar" id="menubar">
+            <div class="left">
+                <img src="{{url_for('static',filename='images/logo1.png')}}">
+            </div>
+            <div class="mid"> </div>
+            <div class="right">
+               <div id="home"><a href="/">Home</a></div>
+               <div><a href="/course">Courses</a></div>
+               <div><a href="/price">Pricing</a></div>
+               <div><a href="/about">About</a></div>
+            </div>
+            <div class="hemicon">
+                <i class="fa fa-bars" aria-hidden="true" id="bars"></i>
+            </div>
+            <div class="hemberger">
+                <div class="subhem" id="subunite">
+                    <div class="subsubhem" id="subunite2">
+                        <div class="social1">
+                            <i class="fa fa-facebook-official fa1" aria-hidden="true"></i>
+                            <i class="fa fa-whatsapp fa2" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square fa3" aria-hidden="true"></i>
+                            <i class="fa fa-instagram fa4" aria-hidden="true"></i>
+                        </div>
+                        <ul>
+                          <li><a href="">Home</a></li>
+                          <li><a href="">Courses</a></li>
+                          <li><a href="">Pricing</a></li>
+                          <li><a href="">About</a></li>
+                        </ul>
+                        <i class="fa fa-window-close" aria-hidden="true" id="cross"></i>
+                    </div>
+                 </div>
+
+            
+            </div>
+        </div>
+    
+         {% block content %}
+         {% endblock %}<br><br><br><br>
+
+
+    <div class="footer">
+        <div class="col1">
+            <h4>Courses</h4>
+            <p><a href="">Dca</a></p>
+            <p><a href="">Adca</a></p>
+            <p><a href="">Tally</a></p>
+            <p><a href="">C++</a></p>
+            <p><a href="">Python</a></p>
+            <p><a href="">Java</a></p>
+        </div>
+        <div class="col2">
+            <h4>Need Help?</h4>
+            <p><a href="">Customer Service</a></p>
+            <p><a href="">Visit Offline</a></p>
+            <p><a href="">Q&A</a></p>
+            <p><a href="">Community Support</a></p>
+        </div>
+        <div class="col3">
+            <h4>Support</h4>
+            <p><a href="">Visit offline</a></p>
+            <p><a href="">Join Courses</a></p>
+            <p><a href="">Follow Us</a></p>
+        </div>
+        <div class="col4">
+            <h4>About Developers</h4>
+            <p>This website is freely build by
+                <br>SACHIN SINGH please help him<br>
+                to motivate more <br>
+                
+            </p>
+            <div class="devdonate"><a href="">Donate Now</a></div>
+            <div class="devsocial">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+
+
+
+
+
+    <script>
+        document.querySelector("#cross").addEventListener('click',showmenu);
+        document.querySelector("#bars").addEventListener('click',hidemenu);
+        function hidemenu(){
+            var z=document.querySelector("#subunite")
+            if(z.style.display=='none'){
+                z.style.display='block';
+            }else{
+                z.style.display='none';
+            }
+            
+        }
+        function showmenu(){
+            var z=document.querySelector("#subunite")
+            if(z.style.display=='block'){
+                z.style.display='none';
+            }else{
+                z.style.display='block';
+            }
+            
+
+        }
+    </script>
+</body>
+</html>

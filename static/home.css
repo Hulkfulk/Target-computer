@@ -1,0 +1,26 @@
+.hero{display:flex;padding-top:130px;}
+.right img{width: 100%px;height: 450px;margin-left: -140px;}
+.left{padding-left:40px;font-size: 150%;}
+.left span a{background:rgb(255, 166, 0);padding: 12px;border-radius: 8px;text-decoration: none;color:white;font-size: 75%;}
+.left span{padding-top:  50px;}
+#btn1{background:rgb(68, 68, 63);}
+#btn2 a{background: rgb(105, 96, 96);color:black;}
+
+.hero2{text-align: center;padding-top:80px;font-size: 150%;}
+.center h1{font-size: 180%;}
+#btn11{background:red;padding: 10px;border-radius: 10px;margin-top: 10px;}
+#btn12{background:red;padding: 10px;border-radius: 10px;}
+.center{padding-bottom: 20px;}
+.hero2 span a{text-decoration: none;color:white;}
+
+/* **********testimonials****** */
+.testimonials{text-align: center;margin-top: 100px;font-size: 280%;}
+.persons img{width: 200px;height: 200px;padding-left:150px;border-radius: 50%;}
+.persons{display:flex;margin-left:5%;}
+.dialogs{display: flex;font-size: 50%;margin-top: 20px;padding-left:100px;}
+.dialogs p{padding-left: 80px;}
+
+
+
+
+
