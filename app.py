@@ -1,6 +1,4 @@
-import turtle
 from flask import Flask,render_template
-from sqlalchemy import true
 app=Flask(__name__)
 
 @app.route('/')
